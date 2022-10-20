@@ -1,6 +1,6 @@
 # An Analysis of Kickstarter Campaigns
 ## Overview
-The attached excel file is an analysis of the success of Kickstarter campaigns launched world-wide. 
+The following analysis focuses on how to launch a successful theater Kickstarter campaign. The data used in this analysis consists of a total of 912 theater campaigns that were launched world-wide, at various times throughout the year. 
 
 ## Analysis
 Kickstarters categorized as "theater" campaigns had the highest overall success amoung any category. 
