@@ -9,6 +9,8 @@ Kickstarters categorized as "theater" campaigns had the highest overall success 
 
 Of theater campaigns, plays outperformed the musical and spaces subcategories with a count of 694 successful campaigns as opposed to 60 and 85 respectively.
 
+![Subcategory Outcomes](https://github.com/skyeryser/kickstarter-analysis/blob/main/Subcategory%20Outcomes.png)
+
 The highest number of successful theater campaigns were launched in the months of May and June. 
 
 ![Outcomes Based on Launch Date](https://github.com/skyeryser/kickstarter-analysis/blob/main/Outcomes%20Based%20on%20Launch%20Date.png)
