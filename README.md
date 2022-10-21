@@ -1,25 +1,28 @@
-# An Analysis of Kickstarter Campaigns
-## Overview
-The following analysis focuses on how to launch a successful Theater Kickstarter campaign. The data used in this analysis consists of a total of 912 theater campaigns that were launched worldwide at various times throughout the year. 
+# Kickstarting with Excel
 
-## Analysis
-Kickstarters categorized as "theater" campaigns had the highest overall success among any category represented in the data.
+## Overview of Project
 
-![Parent Category Outcomes](https://github.com/skyeryser/kickstarter-analysis/blob/main/Parent%20Category%20Outcomes.png)
+### Purpose
+This project analyzes Kickstarter campaigns and identifies actionably ways to implement a Kickstarter campaign for a play that will reach its amount pledged goal before the campaign deadline.
 
-Of theater campaigns, plays outperformed the musical and spaces subcategories with a count of 694 successful campaigns as opposed to 60 and 85 for musical and spaces, respectively.
+## Analysis and Challenges
 
-![Subcategory Outcomes](https://github.com/skyeryser/kickstarter-analysis/blob/main/Subcategory%20Outcomes.png)
+### Analysis of Outcomes Based on Launch Date
+One way to leverage this data is to identify the ideal time of year to launch a Theater campaign. Based on the sample of 1,369 Kickstarters, more successful campaigns launched in late spring through summer. Over 40% of successful theater campaigns launched in the months of May through August. 
 
-There were more successful theater campaigns launched in May and June than any other month.
+### Analysis of Outcomes Based on Goals
+The success of play Kickstarters is related to the campaign goal. Kickstarters for plays with goals less than $14,999 are more likely to succeed than fail. If the set goal is between $15,000 and $19,999, the campaign has a 50% chance of success, and a 50% chance of failure. For higher budget productions, the ideal campaign goal is between $35,000 and $44,999. After this point, increasing the goal will significantly reduce the campaign's chances of success.
 
-![Outcomes Based on Launch Date](https://github.com/skyeryser/kickstarter-analysis/blob/main/Outcomes%20Based%20on%20Launch%20Date.png)
+### Challenges and Difficulties Encountered
+There are outliers in the data that have extremely high campaign goals that impact the mean campaign goal. The analysis 
 
-Theater campaigns with goals that were too high were less likely to succeed. The Kickstarters that ultimately failed had  mean goals of more than 50% of the goals of successful campaigns. The mean amount pledged for these campaigns amounted approximately 5% of the average campaign. This amount is far lower than the average amount pledged for successful campaigns where the average pledge amount was higher than the mean campaign goal.
 
-In Great Britain, campaigns that were under 4,000 GBP were the most successful.
+## Results
 
-![GB Descriptive Statistics](https://github.com/skyeryser/kickstarter-analysis/blob/main/GB%20Descriptive%20Statistics.png)
+- It is ideal to launch a theater campaign during the summer when the weather is warmer in the Northern Hemisphere. The best two months to launch a campaign are in May and June. The worst time to launch a campaign is in winter from December 
 
-## Recommendation
-Based on this analysis, of the campaigns categorized as "theater" campaigns, plays are the most likely to get traction. Setting a campaign goal that is $5,000 or lower will yield a greater chance of success. A summer launch date will also increase the odds of the Kickstarter reaching its goal.
+- The highest number of successful plays have Kickstarter goals under $14,999. There were a total of 6 successful campaigns with goals between $35,000 and $49,999.
+
+- One limitation of this dataset is that the majority of the data was collected from regions in the Northern Hemisphere. In order to gain a balanced perspective of the ideal months to launch a theater Kickstarter, it would help to collect more information from countries in the Southern Hemisphere where seasonality is the opposite.
+
+- Further analysis of the highest average donation will add more insight to this project. Adding charts that depict the highest average donation by region and season would indicate the ideal location and time to launch a Kickstarter with a higher campaign goal.
