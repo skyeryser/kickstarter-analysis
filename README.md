@@ -10,8 +10,13 @@ This project analyzes Kickstarter campaigns and identifies actionably ways to im
 ### Analysis of Outcomes Based on Launch Date
 One way to leverage this data is to identify the ideal time of year to launch a Theater campaign. Based on the sample of 1,369 Kickstarters, more successful campaigns launched in late spring through summer. Over 40% of successful theater campaigns launched in the months of May through August. 
 
+![Theater_Outcomes_vs_Launch](https://github.com/skyeryser/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
 ### Analysis of Outcomes Based on Goals
 The success of play Kickstarters is related to the campaign goal. Kickstarters for plays with goals less than $14,999 are more likely to succeed than fail. If the set goal is between $15,000 and $19,999, the campaign has a 50% chance of success, and a 50% chance of failure. For higher budget productions, the ideal campaign goal is between $35,000 and $44,999. After this point, increasing the goal will significantly reduce the campaign's chances of success.
+
+![Outcomes_vs_Goals](https://github.com/skyeryser/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
 
 ### Challenges and Difficulties Encountered
 There are outliers in the data that have extremely high campaign goals that impact the mean campaign goal. The analysis 
