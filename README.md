@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-This project analyzes Kickstarter campaigns that launched between 2009 and 2017 to identify actionable ways to implement a Kickstarter campaign for a play that will reach its amount pledged goal before the campaign deadline.
+This project analyzes Kickstarter campaigns that launched between 2009 and 2017. The purpose of this analysis is to identify actionable ways to ensure that a Kickstarter campaign for a play that will reach its pledge goal before the campaign deadline.
 
 ## Analysis and Challenges
 
